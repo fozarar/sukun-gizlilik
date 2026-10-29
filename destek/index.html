@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sükûn Destek</title>
+<meta name="description" content="Sükûn hakkında sık sorulan sorular ve iletişim.">
+<!-- Bu sayfa dışarıdan hiçbir şey yüklemez (font, analiz, çerez yok). -->
+<style>
+  :root {
+    --bg: #F5F1EA; --ink: #0F2A3D; --muted: #4F6575; --sea: #2E7FA3;
+    --tile: #DCEBF0; --coral: #FF7A59; --coral-bg: #F8E2D8; --line: #E4DDD1;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0B1A26; --ink: #E8EEF2; --muted: #9DB0BD; --sea: #6FB6D3;
+      --tile: #12324A; --coral-bg: #3A2620; --line: #1D3344;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 20px 64px; }
+  .brand { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 18px; }
+  .brand svg { color: var(--coral); }
+  .eyebrow {
+    margin: 36px 0 4px; font-size: 13px; font-weight: 700;
+    letter-spacing: .08em; text-transform: uppercase; color: var(--muted);
+  }
+  h1 { margin: 0 0 24px; font-size: 38px; line-height: 1.1; letter-spacing: -.02em; }
+  h1 span { color: var(--sea); }
+  h2 { margin: 32px 0 6px; font-size: 20px; }
+  p, li { color: var(--muted); }
+  ul { padding-left: 20px; }
+  .lead {
+    background: var(--tile); border-radius: 24px; padding: 20px;
+    color: var(--ink); font-weight: 600; margin: 0;
+  }
+  .note {
+    margin-top: 40px; background: var(--coral-bg); border-radius: 24px;
+    padding: 20px; color: var(--ink);
+  }
+  .note strong { color: var(--coral); }
+  a { color: var(--sea); }
+  .mail { display: inline-block; margin-top: 4px; font-weight: 700; font-size: 18px; }
+  footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--line); font-size: 14px; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <div class="brand">
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+      <path d="M2 6c2.7-2 5.3-2 8 0s5.3 2 8 0M2 10.5c2.7-2 5.3-2 8 0s5.3 2 8 0M2 15c2.7-2 5.3-2 8 0s5.3 2 8 0"/>
+    </svg>
+    Sükûn
+  </div>
+
+  <p class="eyebrow">Destek</p>
+  <h1>Nasıl <span>yardımcı olabiliriz?</span></h1>
+
+  <p class="lead">Bir sorun yaşadıysan ya da bir önerin varsa bize yaz.<br>
+    <a class="mail" href="mailto:fozarardev@gmail.com?subject=S%C3%BCk%C3%BBn">fozarardev@gmail.com</a></p>
+
+  <h2>Hesap açmam gerekiyor mu?</h2>
+  <p>Hayır. Sükûn hesapsız çalışır; kayıtların yalnızca telefonunda durur.</p>
+
+  <h2>Yeni telefona geçerken kayıtlarımı nasıl taşırım?</h2>
+  <p>Eski telefonda Ayarlar → Verilerim → "Yedeği dışa aktar" ile bir dosya oluştur ve onu kendine gönder ya da Dosyalar'a kaydet. Yeni telefonda Ayarlar → "Yedekten geri yükle" ile o dosyayı seç. Mevcut kayıtların silinmez, aynı kayıt iki kez eklenmez.</p>
+
+  <h2>Hatırlatıcı bildirimi gelmiyor.</h2>
+  <ul>
+    <li>Telefonun ayarlarında Sükûn için bildirimlerin açık olduğunu kontrol et.</li>
+    <li>Android'de pil tasarrufu bildirimleri gruplayabilir; hatırlatıcı seçtiğin saatten biraz sonra gelebilir.</li>
+    <li>Odak ya da Rahatsız Etmeyin modu açıksa bildirim sessizce gelir.</li>
+  </ul>
+
+  <h2>Kayıtlarımı nasıl silerim?</h2>
+  <p>Ayarlar → Verilerim → "Tüm verileri sil". Uygulamayı telefondan kaldırmak da her şeyi siler. Ayrıntılar için <a href="../">gizlilik politikası</a>.</p>
+
+  <h2>Uygulama nasıl hızlı açılır?</h2>
+  <p>Ana ekranda Sükûn simgesine basılı tut ve "Sakinleş"e dokun; doğrudan 3 dakikalık nefese başlar.</p>
+
+  <div class="note">
+    <strong>Önemli bir not:</strong> Sükûn kaygıyla baş etmene yardım eden bir destek aracıdır. Tıbbi tanı koymaz, tedavi sunmaz ve bir uzmanın yerini tutmaz. Kendine ya da başkasına zarar verme düşüncen varsa veya acil bir durumdaysan hemen 112'yi ara.
+  </div>
+
+  <footer>Bu sayfa çerez kullanmaz ve dışarıdan hiçbir şey yüklemez.</footer>
+</main>
+</body>
+</html>
